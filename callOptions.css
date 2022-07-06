@@ -1,0 +1,62 @@
+.callOptions{
+   
+    padding: 10px;
+    background-color: #D5D5D5;
+    height: 30vh;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    min-width: 500px;
+    
+}
+.default{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.letf{
+  
+   display: flex;
+   flex-direction: row;
+    
+}
+.textField{
+   
+   width: 200px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   
+}
+.copyBoard{
+    margin-top: 10px;
+    padding: 0px;
+    width: 100%;
+    flex: 1;
+    
+}
+.button{
+    height: 100%;
+    width: 100%;
+   margin-bottom: 10px;
+}
+.bigButton{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 130px;
+    height:130px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+   
+}
+
+.toCallInfo{
+    margin-top: 20px;
+}
+
+.nameAndId{
+    display: flex;
+    width: 100%;
+    margin-right: 10px;
+}

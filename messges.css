@@ -1,0 +1,115 @@
+.messages{
+    
+    background-color: #D5D5D5;
+    height: 40vh;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    max-width: 605px;
+}
+
+
+.heading{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 20px;
+}
+
+.heading .iconOnline{
+    color:rgb(28, 206, 28);
+}
+
+.heading .iconOfline{
+    color:rgb(206, 28, 28);
+}
+
+.heading h2{
+    flex:1
+}
+
+.chatLog{
+    padding: 10px;
+    position: relative;
+    /* border:2px solid black; */
+    flex:1;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.messageLog{
+    background-color:white;
+    flex: 0.8;
+    
+    /* border:1px solid black; */
+    border-radius: 20px;
+    padding:10px;
+    border: 2px solid whitesmoke;
+    border-bottom: none;
+    overflow: scroll;
+    /* height: 7%; */
+    max-height: 150px;
+   
+    padding-bottom: 30px;
+}
+
+.messageLog::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .messageLog {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+
+.inp_Chat{
+    background-color: white;
+    /* border:1px solid black; */
+    flex:0.2;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid whitesmoke;
+    border-top: none;
+
+}
+
+
+.inputField{
+    padding: 10px;
+    flex: 1;
+}
+
+
+
+.myMessage{
+    position: relative;
+    background-color: rgb(230, 225, 189);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    /* width: 100%; */
+    margin-left: auto;
+    margin-bottom: 3px;
+    max-width: 70%;
+}
+
+
+.receivedMessage{
+    position: relative;
+ background-color: #007F5F;
+ padding: 5px;
+ border-radius: 10px;
+ color: white;
+ width: fit-content;
+ max-width: 70%;
+ margin-bottom: 3px;
+}

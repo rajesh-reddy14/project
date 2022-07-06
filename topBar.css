@@ -1,0 +1,38 @@
+.topBar{
+    height:10vh;
+    background-color:#007F5F;
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.brand{
+    padding:10px 0px 10px;
+    flex:1;
+    color:white;
+}
+
+.topBar__Icon{
+    padding:10px 0px 0px 10px;
+}
+
+.topBar__nameField{
+    margin-right: 20px;
+}
+
+.topBar__button{
+    padding: 10px;
+    
+}
+
+.copyBoard{
+    padding: 5px;
+}
+
+.username{
+    padding: 10px 50px;
+    color: white;
+    height: 100%;
+    margin-right: 40px;
+}
